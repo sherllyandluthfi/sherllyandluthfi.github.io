@@ -170,9 +170,9 @@
     }
 
     .popup-2-2{
-        font-size: 80px;
+        font-size: 60px;
         font-weight: bold;
-        font-family: 'Vibes';
+        line-height: 1.6;
         color:rgb(166, 124, 0);
         animation:2s zoom infinite;     
     }
