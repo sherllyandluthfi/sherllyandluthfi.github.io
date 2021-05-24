@@ -141,6 +141,7 @@
     
     #up{
         /* background-image: url('https://1.bp.blogspot.com/-B5zs-uW79Bk/XzyhP2V_E8I/AAAAAAAAQ6M/JfHyxPId2YUat-ZCwoug3hrvmXM4bW0gACLcBGAsYHQ/s200/tops.png'); */
+        background-image:  url('img/top.png'),url('img/bg.jpg');
         height: 62px;
         position: fixed;
         top:0;
@@ -148,6 +149,7 @@
     
     #down{
         /* background-image: url('https://1.bp.blogspot.com/-v0b8Apf_VyI/XzyhMd0JIoI/AAAAAAAAQ5U/CZmSukmYu1ofgioEjk839N61M5IExOpbACLcBGAsYHQ/s200/border-bottoms.png'); */
+        background-image:  url('img/bottom.png'),url('img/bg.jpg');
         height:62px;
         position: fixed;
         z-index: 999;
