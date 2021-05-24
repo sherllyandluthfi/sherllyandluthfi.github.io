@@ -1,0 +1,817 @@
+
+    body{
+        background: url('https://1.bp.blogspot.com/-jqmBOa1f3vY/XzyhL5IcXNI/AAAAAAAAQ5Q/nGZBuH8dBkowOe-5NRrkWal-OlfyaBZPgCLcBGAsYHQ/s200/bg.jpg');
+        margin:0;
+        font-family: 'Monts';
+        color: rgba(1,1,1,0.7);
+        overflow:hidden;
+    }
+    
+    input, textarea{
+        z-index: -1;
+    }
+
+    @font-face {
+        font-family: Monts;
+        font-weight: 400;
+        src: url(font/mont/Mont-Regular.otf);
+    }
+
+    @font-face {
+        font-family: Monts;
+        font-weight: 300;
+        src: url(font/mont/Mont-Light.otf);
+    }
+
+    @font-face {
+        font-family: Monts;
+        font-weight: 600;
+        src: url(font/mont/Mont-SemiBold.otf);
+    }
+
+    @font-face {
+        font-family: Monts;
+        font-weight: 700;
+        src: url(font/mont/Mont-Bold.otf);
+    }
+
+    @font-face {
+        font-family: Beauty;
+        src: url(font/beautydemo.ttf);
+    }
+
+    @font-face {
+        font-family: Vibes;
+        src: url(font/beautydemo.ttf);
+    }
+    
+    #tes{
+        width:45%;
+        height: 350px;
+        margin:0 auto;
+    }
+
+    .padding{
+        padding:3% 0;
+    }      
+    
+    .container{        
+        width:97%;
+        margin:0 auto;
+    }
+
+    .container-1{
+        width:50%;
+        margin:0 auto;
+    }
+
+    .container-1 iframe{
+        width:100%;
+        height: 300px;
+        margin-top:5%;
+		border:5px solid rgb(166, 124, 0);
+    }
+
+    #quote img, #location img, #family img{
+        width:20%;
+        margin:3% 0 1% 0;
+    }
+
+    .clear{
+        clear:both;
+    }
+
+    .theme-default .nivoSlider {
+        margin-bottom: 0;
+    }
+    
+    #slider{
+        display:block;
+    }
+    
+    #slide,#slider-2{
+        display:none;
+    }
+    
+    #up, #down, .border-up, .border-down{
+        width:105.5%;
+        margin-left:-5.5%;
+    }
+	
+	.border-down, .border-up, #up, #down{
+		margin-left: -17%;
+		width:117%;
+	}
+
+    .border-down{
+        background-image: url('https://1.bp.blogspot.com/-B5zs-uW79Bk/XzyhP2V_E8I/AAAAAAAAQ6M/JfHyxPId2YUat-ZCwoug3hrvmXM4bW0gACLcBGAsYHQ/s200/tops.png');
+        z-index: -9999;
+        height: 62px;
+    }
+
+    .border-up{
+        background-image: url('https://1.bp.blogspot.com/-v0b8Apf_VyI/XzyhMd0JIoI/AAAAAAAAQ5U/CZmSukmYu1ofgioEjk839N61M5IExOpbACLcBGAsYHQ/s200/border-bottoms.png');
+        z-index: -9999;
+        height: 62px;  
+    }
+
+    /* POPUP */
+    #popup{
+        width:100%;
+        height: 100%;
+        background: url('https://1.bp.blogspot.com/-jqmBOa1f3vY/XzyhL5IcXNI/AAAAAAAAQ5Q/nGZBuH8dBkowOe-5NRrkWal-OlfyaBZPgCLcBGAsYHQ/s200/bg.jpg');
+        position: fixed;
+        z-index: 9999;
+        display: none;
+		overflow:scroll;
+		overflow-x : hidden;
+    }
+    
+    #popup img{ 
+        animation:2s zoom infinite;       
+    }
+    
+    #up{
+        background-image: url('https://1.bp.blogspot.com/-B5zs-uW79Bk/XzyhP2V_E8I/AAAAAAAAQ6M/JfHyxPId2YUat-ZCwoug3hrvmXM4bW0gACLcBGAsYHQ/s200/tops.png');
+        height: 62px;
+        position: fixed;
+        top:0;
+    }
+    
+    #down{
+        background-image: url('https://1.bp.blogspot.com/-v0b8Apf_VyI/XzyhMd0JIoI/AAAAAAAAQ5U/CZmSukmYu1ofgioEjk839N61M5IExOpbACLcBGAsYHQ/s200/border-bottoms.png');
+        height:62px;
+        position: fixed;
+        z-index: 999;
+        bottom:0;
+    }
+
+    .popup-1{
+        color: rgba(255, 255, 255 0.8);
+        margin:10% 0;
+    }
+    
+    .popup-1 a{
+        color:rgba(1,1,1,0.8);
+        text-decoration:none;
+    }
+
+    .popup-2{
+        margin-bottom:2%;
+    }
+
+    .popup-2-1{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    
+    .goyang{
+        animation:2s zoom infinite;  
+    }
+
+    .popup-2-2{
+        font-size: 80px;
+        font-weight: bold;
+        font-family: 'Vibes';
+        color:rgb(166, 124, 0);
+        animation:2s zoom infinite;     
+    }
+    
+    .popup-ads{
+        width:75%;
+        margin:1% auto 3% auto;
+    }
+
+    .popup-3{
+        margin:0.5% 0 3% 0;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    .hide{
+        padding:0.8% 0%;
+        width: 18%;
+        background-color: rgb(166, 124, 0);
+        border:2px solid white;
+        border-radius:3px;
+        transition:0.5s opacity; 
+        animation:2s zoom infinite;     
+        color:white;
+    }
+
+    .hide:hover{
+        cursor:pointer;
+        opacity:0.5;
+    }
+
+    /* MENU */
+
+    .menu-1{
+        width:100%;
+        position: fixed;
+        width:100%;
+        background-color: rgb(240, 184, 53);
+        background-image: linear-gradient(to bottom, rgb(240, 184, 53), rgb(166, 124, 0));
+        bottom:0;
+        border-top:1px solid rgba(1,1,1,0.3);
+    }
+
+    .menu-1 div{
+        float:left;
+        color:white;
+        text-align: center;
+    }
+
+    .menu-2{
+        width:16.5%;
+        padding:0.8% 0;
+        border-left: 1px solid rgba(1,1,1,0.2);
+        transition-property:background;
+        transition-duration:0.5s;
+    }
+
+    .menu-2:hover, .menu-4:hover{
+        cursor: pointer;
+        background-color: rgb(166, 124, 0);
+    }
+
+    .menu-3{
+        text-align: center;
+        width:100%;
+        position: fixed;
+        width:100%;
+        background-color: rgb(240, 184, 53);
+        background-image: linear-gradient(to bottom, rgb(240, 184, 53), rgb(166, 124, 0));
+        color:white;
+        bottom:0;
+        border-top:1px solid rgba(1,1,1,0.2);
+        z-index:9999;
+    }
+
+    .menu-3 .menu-2{
+        width:100%;
+        padding:3% 0;
+        border-bottom:1px solid rgba(1,1,1,0.2);
+        font-size: 14px;
+        display: none;
+    }
+
+    .menu-4{
+        padding:3% 0;
+        cursor: pointer;
+        font-size: 16px;
+        display: none;
+        color:white;
+    }
+
+    .menu-3 a{
+        color:white;
+        text-decoration: none;
+    }
+
+    /* Quote */
+    #quote{
+        margin-top:-1%;
+        line-height: 150%;
+    }
+
+    .quote-1{
+        width:10%;
+        border:3px solid #001740;
+        border-radius:10px;
+    }
+
+    /* Gambar */
+
+    .gambar-1, .gambar-2, .gambar-3{
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .gambar-1{
+        background-image: url("https://1.bp.blogspot.com/-ERVzrepHP9U/XzyhLe-LrgI/AAAAAAAAQ5I/K7dA2q_bYSEQjZej__dZL2wSfNGux0uIQCLcBGAsYHQ/s1250/banner-3.jpg");
+        color:rgba(255, 255, 255, 0.7);
+    }
+
+    .gambar-2{
+        background-image: url("https://1.bp.blogspot.com/-gYbfwJkyTos/XzyhLSRoTzI/AAAAAAAAQ5M/TcGk-TNPVag_r4zq3vQMbjz5pDhbvs3kACLcBGAsYHQ/s1250/banner-2.jpg");
+        color:rgba(255, 255, 255, 0.7);
+    }
+
+
+    .gambar-1-1{
+        padding:20% 0;
+        font-family: "Vibes";
+        font-size: 80px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    /* RECEPTION */
+
+    #reception, #location{
+        text-align: center;
+    }
+    
+    #receptions{
+        color:rgb(166, 124, 0)
+    }
+
+    .reception-1-0{
+        width:10%;
+    }
+
+    .reception-1-1{
+        width:25%;
+    }
+
+    .reception-2{
+        line-height:150%;
+        margin:1% 0;
+    }
+    
+    .reception-2 a{
+        font-size: 12px;
+        text-decoration: none;
+        color: rgb(166, 124, 0);
+    }
+    
+    .reception-2 i{
+        font-size:18px;
+    }
+    
+    .reception-2-img{
+        padding:0.4%;
+        border:1px solid rgba(1,1,1,0.1);
+        border-radius:50%;
+        margin:1% 0 2% 0;
+        width:20%;
+    }
+
+    .reception-2-1{
+        font-size: 30px;
+        margin:0 -5%;
+    }
+
+    .reception-3{
+        font-family: "Beauty";
+        font-size: 50px;
+        color:rgb(166, 124, 0);
+    }
+
+    .reception-4{
+        margin:1% 0;
+    }
+
+    .reception-4 b{
+        color:rgb(166, 124, 0);
+    }
+
+    .reception-5{
+        margin:0.5% 0 0 0;
+        font-size: 28px;
+        font-weight: normal;
+        color:rgb(166, 124, 0);
+    }
+	
+	.reception-and{
+		font-size:35px;
+		 color:rgb(166, 124, 0); 
+		 margin:2% 0;
+	}
+    
+    .reception-love{        
+        color:rgb(166, 124, 0);
+		margin:3% 0;
+    }
+	
+	#reception .sm{
+		font-size:12px;
+	}
+	
+	#reception .md{
+		font-size:16px;
+	}
+	
+	#reception .lg{
+		font-size:20px;
+	}
+
+    .reception-6{
+        font-family: "Vibes";
+        font-size: 50px;
+    }
+
+    .reception-6 img{
+        margin-top:3%;
+        width:8%;
+    }
+
+    audio{
+        display:none;
+    }
+
+    .reception-7{
+        width:10%;
+    }
+
+    /* LOCATION */
+
+    #location a{
+        padding:2% 5%;
+        background-color: rgb(240, 184, 53);
+        background-image: linear-gradient(to bottom, rgb(240, 184, 53), rgb(166, 124, 0));
+        border:3px solid rgb(255,255,255,0.5); 
+        border-radius:3px;
+        color:white;
+        text-decoration: none;
+        transition:0.5s;
+    }
+
+    #location a:hover{
+        opacity:0.5;
+    }
+
+    .location-1{
+        line-height: 150%;
+        text-align: center;
+        margin-bottom:5%;
+    }
+
+    .location-1 b{
+        color:rgb(166, 124, 0)
+    }
+    /* Gallery */
+
+    .gallery-1{
+        width:28.5%;
+        margin:2%;
+        float:left;
+        border:5px solid rgba(255,255,255,0.7);
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+
+    .gallery-1:hover{
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    .gallery-1 img{
+        width:100%;
+    }
+
+    .comments{
+        width:50%;
+        margin:0 auto;
+    }
+
+    .gallery-2{
+        width:10%;
+    }
+
+    /* Guest Book */
+    .guest-0{
+        font-family:'Vibes';
+        font-size:35px;
+        color: rgb(166, 124, 0);
+    }
+    
+    .guest-0 i{
+        font-size:25px;
+    }
+    .guest-1 input, .guest-1 textarea{
+        width:98%;        
+        margin-bottom: 1%;
+        padding:1%;
+        border:1px solid rgba(1,1,1,0.1);
+        border-radius:3px;
+        font-size:14px;        
+        font-family: 'Monts';
+    }
+    .guest-1 button{
+        background-color: rgb(240, 184, 53);
+        background-image: linear-gradient(to bottom, rgb(240, 184, 53), rgb(166, 124, 0));
+        color:white;
+        padding:0.7% 0;
+        width:13%;
+        text-align: center;
+        border-radius:30px;
+        margin:0.5% 0 1% 0;
+        border:none;
+        font-size:14px;
+        transition:0.5s;
+        cursor:pointer;
+        font-family: 'Monts';
+    }
+    .guest-1 button:hover{
+        opacity:0.5;
+    }
+    /* Comment */
+    #comment{
+        margin:0.7% 0 7% 0;
+        color:white;
+    }
+    #comment img{
+        width:60%;
+    }
+    .comment-1{
+        border:1px solid rgba(1,1,1,0.1);
+        border-radius:3px;
+        padding:3% 1%;
+        background-color: rgb(240, 184, 53);
+        background-image: linear-gradient(to bottom, rgb(240, 184, 53), rgb(166, 124, 0));
+    }
+    .comment-1-1{
+        margin-bottom:1%;
+    }
+    .comment-2{
+        margin-bottom:1%;
+    }
+    .comment-3{
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom:0.3%;
+    }
+    .comment-3-1{
+        font-size: 10px;
+        font-weight: normal;
+    }
+    
+    @media only screen and (min-width: 0px) and (max-width:960px) {
+        body{
+            font-size:14px;
+            line-height:200%;
+        }
+        .padding{
+            padding:8% 0;
+        }
+ #up, #down, .border-up, .border-down{
+        width:123%;
+        margin-left:-23%;
+    }
+        .container-1{
+            width:90%;
+            margin:0 auto;
+        }
+
+        .container-1 iframe{
+            height: 200px;
+            margin-top:8%;
+        }
+
+        #quote img, #location img{
+            width:30%;
+            margin:3% 0 1% 0;
+        } 
+
+        /* POPUP */
+        .popup-1{
+            margin:30% 0;
+            font-size: 16px;
+        }
+        
+        .popup-ads{
+            width:85%;
+            margin:8% 0;
+        }
+
+        #popup img{
+            margin-top:5%;
+            width:90%;
+        }
+
+        #tes{
+            width:95%;
+            height: 220px;
+            margin:0 auto;
+            border-radius:5px;
+        }
+
+        .hide{
+            width:80%;
+            padding:3% 0;
+            margin-top:-3%;
+        }
+
+        .popup-2{
+            margin-bottom:5%;
+        }
+
+        .popup-3{
+            width:85%;
+            margin-top:-5%;
+            font-size: 13px;
+        }
+        
+        .popup-2-2{
+            letter-spacing:1px;
+            margin:5% 0;
+            font-size:50px;
+        }
+
+        /* MENU */
+
+        .menu-1{
+            display:none;
+        }
+
+        .menu-2{
+            display:none;
+        }
+
+        .menu-4{
+            display:block;
+            z-index:9999;
+        }
+
+        /* Slide */
+        #slider{
+            display:none;
+
+        }       
+        #slider-2{
+            display:block;
+        }
+        #slide{
+            display:block;
+        background-color: rgb(240, 184, 53);
+        background-image: linear-gradient(to bottom, rgb(240, 184, 53), rgb(166, 124, 0));
+            color:white;
+            text-align:center;
+            padding:3% 0 3% 0;
+            line-height:1.2;
+        }
+
+        .slide-1{
+            font-weight:bold;
+            font-family:Vibes;
+            font-size:26px;
+            letter-spacing:3.5px;
+        }
+
+        .slide-2{
+            font-family: Monts;
+            font-size:12px;
+            letter-spacing:5px;
+        }
+
+
+        /* Quote */
+
+        .quote-1{
+            width:10%;
+            margin:3% auto;
+            border:3px solid #001740;
+            border-radius:10px;
+        }
+
+        /* Gambar */
+        .gambar-1, .gambar-2, .gambar-3{
+            background-attachment: inherit;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+
+        .gambar-1-1{
+            padding:50% 0;
+            font-family: "Vibes";
+            font-size: 60px;
+            text-align: center;
+        }
+
+        /* RECEPTION */
+
+        .reception-1-1{
+            width:60%;
+        }
+
+        .reception-2{
+            margin:3% 0;
+            padding:0 4%;
+        }
+        
+    .reception-2-img{
+        padding:1%;
+        margin:2% 0 5% 0;
+        width:50%;
+    }
+
+        .reception-3{
+            font-size: 40px;
+        }
+        
+        .reception-and{
+            margin:5% 0 8%;
+        }
+        
+        .reception-4{
+            margin-bottom:5%;
+        }
+
+        .reception-5{
+            margin:1.5% 0 0 0;
+            font-size: 25px;
+        }
+
+        .reception-6{
+            font-size: 24px;
+        }
+
+        .reception-6 img{
+            margin-top:3%;
+            width:15%;
+        }
+
+        .reception-7{
+            width:30%;
+        }
+
+        /* LOCATION */
+
+        #location a{
+            padding:3.5% 20%;
+        }
+
+        .location-1{
+            margin-bottom:6%;
+        }
+        
+        /* GUEST BOOK */
+
+        .gallery-1{
+            width:93%;
+            margin: 3% 2%;
+        }
+
+        .gallery-1:hover{
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        .gallery-1 img{
+            width:100%;
+        }
+
+        /* Guest Book */
+    .guest-0{
+        font-family:'Vibes';
+        font-size:35px;
+        margin:1% 1% 0 1%;
+    }
+        .guest-1 input, .guest-1 textarea{
+            width:92%;        
+            margin-bottom: 1%;
+            padding:3%;
+            border:1px solid rgba(1,1,1,0.1);
+            border-radius:3px;
+            font-size:16px;        
+            font-family: 'Monts';
+        }
+        
+        .guest-1 textarea{
+            height:150px;
+        }
+        .guest-1 button{
+            color:white;
+            padding:3% 0;
+            width:40%;
+            text-align: center;
+            border-radius:30px;
+            margin:1% 1% 1% 1%;
+            border:none;
+            font-size:14px;
+            transition:0.5s;
+            cursor:pointer;
+            font-family: 'Monts';
+        }
+        .guest-1 button:hover{
+            opacity:0.5;
+        }
+        /* Comment */
+        #comment{
+            margin:4% 0 25% 0;
+        }
+        #comment img{
+            width:100%;
+        }
+        .comment-1{
+            border:1px solid rgba(1,1,1,0.1);
+            padding:3% 1%;;
+            padding:3%;
+        }
+        .comment-1-1{
+            margin-bottom:1%;
+        }
+        .comment-2{
+            margin-bottom:1%;
+        }
+        .comment-3{
+            font-size: 25px;
+            margin-bottom:0.3%;
+        }
+        .comment-3-1{
+            font-size: 10px;
+        }
+    }
