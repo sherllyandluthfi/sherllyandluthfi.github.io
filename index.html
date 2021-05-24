@@ -30,7 +30,14 @@
                         Sherlly <div class="d-block d-md-inline small">&</div> Luthfi
                     </div>
                     <!-- <div class="py-3 font-weight-bold">Dear Yanuar Komara</div>git a -->
-                    <!-- <b> Dear Luthfi & Pasangan, </b><br> -->
+                    <script type="text/javascript">
+                        const queryString = window.location.search;
+                        const urlParams = new URLSearchParams(queryString);
+                        let to = urlParams.get('to');
+                        if(to!=null){
+                            document.write("<b>"+to+",</b><br>");
+                        }
+                    </script>
                     <div class="container text-center">
                         Dengan tidak mengurangi rasa hormat Undangan melalui Watshap ini merupakan pengganti kartu undantan yg kami kirimkan apabila kartu undangan tsb belum diterima sama bapak/ibu/sdr sekalian.
                         <br><br>
